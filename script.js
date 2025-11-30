@@ -31,3 +31,7 @@ function add(a,b){
 }
 console.log(add(2,3));
 
+//with arrow function
+
+const addition = (a,b)=>a+b;
+console.log(addition(3,4));
