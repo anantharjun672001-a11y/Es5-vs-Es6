@@ -66,7 +66,7 @@ console.log(obj2); */
 
 // rest parameter
 
-function oddEven(...c) {
+function oddEven(a,b,...c) {
     let even=[];
     for(let i=0;i<c.length;i++){
         if(c[i]%2===0){
