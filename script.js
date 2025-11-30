@@ -54,13 +54,28 @@ console.log(`Hello How are you? ${say}`);
 
 // spread operator
 
-const arr=[1,2,3]
+/* const arr=[1,2,3]
 const arr1=[4,5,6]
 const arr2=[...arr1,...arr]
 console.log(arr2);
 
 const obj={name:'arjun'}
 const obj1={age:24}
-const obj2={...obj,...obj1}
-console.log(obj2);
+const obj2={...obj,...obj1,}
+console.log(obj2); */
+
+// rest parameter
+
+function oddEven(...c) {
+    let even=[];
+    for(let i=0;i<c.length;i++){
+        if(c[i]%2===0){
+            even.push(c[i])
+        }
+    }
+    return even
+}
+console.log(oddEven(10,11,12,13,14,15,16,17,18))
+    
+
 
