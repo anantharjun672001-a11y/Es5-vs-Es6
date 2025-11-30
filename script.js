@@ -66,7 +66,7 @@ console.log(obj2); */
 
 // rest parameter
 
-function oddEven(a,b,...c) {
+/* function oddEven(a,b,...c) {
     let even=[];
     for(let i=0;i<c.length;i++){
         if(c[i]%2===0){
@@ -75,7 +75,19 @@ function oddEven(a,b,...c) {
     }
     return even
 }
-console.log(oddEven(10,11,12,13,14,15,16,17,18))
+console.log(oddEven(10,11,12,13,14,15,16,17,18)) */
+
+//Array Destructure:- 
+
+//without Destructure:-
+
+const fruits = ["🍎","🍊","🍓","🥭"]
+const apple = fruits[0];
+const orange = fruits[1];
+const strawberry = fruits[2]
+const mango = fruits[3]
+console.log(apple,orange,strawberry,mango);
+
     
 
 
