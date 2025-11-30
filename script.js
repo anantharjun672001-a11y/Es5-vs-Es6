@@ -58,3 +58,9 @@ const arr=[1,2,3]
 const arr1=[4,5,6]
 const arr2=[...arr1,...arr]
 console.log(arr2);
+
+const obj={name:'arjun'}
+const obj1={age:24}
+const obj2={...obj,...obj1}
+console.log(obj2);
+
