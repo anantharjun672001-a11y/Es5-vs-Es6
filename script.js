@@ -39,19 +39,22 @@ console.log(addition(3,4)); */
 // Template literals
 
 // without template literals
-
+/* 
 let name="John Doe "
 console.log("my name is",name);
+*/
 
 // with template literal
+/*
+let say="Hi I am Fine"
 
-let say="Hello How are you?"
+console.log(`Hello How are you? ${say}`);
 
-console.log(`Hi I am FIne 
+ */
 
+// spread operator
 
-
-
-    ${say}`);
-
-
+const arr=[1,2,3]
+const arr1=[4,5,6]
+const arr2=[...arr1,...arr]
+console.log(arr2);
