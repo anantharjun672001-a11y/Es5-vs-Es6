@@ -93,10 +93,29 @@ console.log(apple,orange,strawberry,mango);
 //with destructure:- 
 //syntax : const/let [variablename] = arrayname
 
-const fruits = ["🍎","🍊","🍓","🥭"]
+/* const fruits = ["🍎","🍊","🍓","🥭"]
 const [apple,orange,strawberry,mango,banana="🍌"] = fruits
 console.log(apple,orange,strawberry,mango,banana);
 console.log(fruits);
+ */
+
+//Object Destructure:- 
+
+//without Destructure:-
+
+let obj = {
+names:"John",
+age:30,
+address:{
+city:"chennai",
+state: "tamilnadu"
+}
+}
+console.log(obj.names);
+console.log(obj.age);
+console.log(obj.address.city)
+console.log(obj.address.state);
+
 
 
 
