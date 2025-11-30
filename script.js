@@ -80,14 +80,23 @@ console.log(oddEven(10,11,12,13,14,15,16,17,18)) */
 //Array Destructure:- 
 
 //without Destructure:-
-
+/* 
 const fruits = ["🍎","🍊","🍓","🥭"]
 const apple = fruits[0];
 const orange = fruits[1];
 const strawberry = fruits[2]
 const mango = fruits[3]
 console.log(apple,orange,strawberry,mango);
-
+ */
     
+
+//with destructure:- 
+//syntax : const/let [variablename] = arrayname
+
+const fruits = ["🍎","🍊","🍓","🥭"]
+const [apple,orange,strawberry,mango,banana="🍌"] = fruits
+console.log(apple,orange,strawberry,mango,banana);
+console.log(fruits);
+
 
 
