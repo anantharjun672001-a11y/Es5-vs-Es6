@@ -103,7 +103,7 @@ console.log(fruits);
 
 //without Destructure:-
 
-let obj = {
+/* let obj = {
 names:"John",
 age:30,
 address:{
@@ -115,7 +115,47 @@ console.log(obj.names);
 console.log(obj.age);
 console.log(obj.address.city)
 console.log(obj.address.state);
+ */
 
+//with Destructure:-
 
+//syntax : const/let {keyname} = objectname
+/* 
+let obj = {
+names:"John",
+age:30,
+address:{
+city:"chennai",
+state: "tamilnadu"
+}
+}
+
+const {names,age,address:{city,state}} = obj
+console.log(names,age,city,state);
+ */
+
+const shop = [
+   {
+    item:"rice",
+    price:100,
+    category:"grains"
+   },
+    {
+    item:"apple",
+    price:150,
+    category:"fruits"
+   },
+    {
+    item:"carrot",
+    price:80,
+    category:"vegetable"
+   }
+]
+
+const [{item,price,category}] = shop
+shop.forEach(({item,price,category})=>{
+    console.log(item,price,category);
+    
+})
 
 
