@@ -15,8 +15,19 @@ console.log(x);
 }
  */
 
-if (true){
+/* if (true){
     const x=15;
     console.log(x);
     
+} */
+
+
+// Arrow Function
+
+//without arrow function
+
+function add(a,b){
+    return a+b;
 }
+console.log(add(2,3));
+
