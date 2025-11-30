@@ -1,11 +1,11 @@
 // Scoping : var vs let vs const 
 //Var example :- function / global scope 
 
- if(true){
+/*  if(true){
     var x=10;
 }
 console.log(x);
- 
+  */
 
 //let example :- block scope 
 
@@ -14,3 +14,9 @@ console.log(x);
     console.log(x);
 }
  */
+
+if (true){
+    const x=15;
+    console.log(x);
+    
+}
