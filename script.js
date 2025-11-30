@@ -26,12 +26,22 @@ console.log(x);
 
 //without arrow function
 
-function add(a,b){
+/* function add(a,b){
     return a+b;
 }
-console.log(add(2,3));
+console.log(add(2,3)); */
 
 //with arrow function
 
-const addition = (a,b)=>a+b;
-console.log(addition(3,4));
+/* const addition = (a,b)=>a+b;
+console.log(addition(3,4)); */
+
+// Template literals
+
+// without template literals
+
+let name="John Doe "
+console.log("my name is",name);
+
+// 
+
