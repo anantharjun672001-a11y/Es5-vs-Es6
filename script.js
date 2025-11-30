@@ -43,5 +43,10 @@ console.log(addition(3,4)); */
 let name="John Doe "
 console.log("my name is",name);
 
-// 
+// with template literal
+
+let say="Hello How are you?"
+
+console.log(`Hi I am FIne ${say}`);
+
 
